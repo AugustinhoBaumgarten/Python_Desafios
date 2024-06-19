@@ -1,0 +1,5 @@
+print('============= Exercício 015 ==============')
+km=int(input('Quilometros percorrido (KM):'))
+diaria=int(input('Total de dias alugado:'))
+pago= (km * 0.15) + (60 * diaria)
+print('O total a pagar é de R${:.2f} Reais.'.format(pago))
